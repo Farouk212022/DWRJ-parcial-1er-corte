@@ -16,7 +16,6 @@ async function createCharacterList() {
       let character = characterList[i];
       const characterCard = createCharacterCard(character);
       characterListDiv.insertAdjacentHTML('beforeend', characterCard);
-      console.log(i,characterListDiv)
       addCharacterListeners(character);
     }
   } catch (e) {
@@ -71,7 +70,6 @@ function addCharacterListeners(character) {
   try {
     let idListener= "heart-button-"+`${character["name"]}`
     let heartButton = document.getElementById(idListener);
-    console.log(heartButton);
     heartButton.addEventListener("click", function (event) {
       alert(
         `Hola soy ${character["name"]} y este es el trabajo de Carlos Farouk Abdalá`
