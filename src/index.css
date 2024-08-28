@@ -6,6 +6,89 @@
     --background-color: #1E1E1E;
 }
 
-.character-list {
+body{
     background-color: var(--background-color);
+}
+
+.titulo{
+    font-family: Inter;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    color: #11B0C8;
+    padding: 70px 0px;
+}
+
+.character-list {
+    display: flex;
+    background-color: var(--background-color);
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.character-card{
+    background-color: #313234 ;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 294px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.character-image{
+    border-radius: 16px;
+    height: 60%;
+    object-fit: cover;
+    display: flex;
+}
+
+.character-information{
+    padding-top:15px;
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+}
+
+.character-description{
+    display: flex;
+    flex-direction: column;
+}
+
+#dead{
+    filter: hue-rotate(-60deg);
+}
+
+#unknown{
+    filter: hue-rotate(-200deg);
+}
+
+.character-description span{
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.characteristic span{
+    margin-top: 10px;
+}
+
+.character-name{
+    font-weight: bolder;
+    margin-bottom: 7px ;
+}
+
+.characteristic-image{
+    width:15px;
+    margin-right: 5px;
+}
+
+.heart-image{
+    padding: 10px;
+    cursor: pointer;
 }
