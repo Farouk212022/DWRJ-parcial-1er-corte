@@ -82,7 +82,7 @@ class RickAndMortyService {
       const apiResponse = await fetch(this.apiUrl);
       const charactersResponse = await apiResponse.json();
       const charactersList = charactersResponse["results"];
-      for (var i = 0; i < 15; i++) {
+      for (var i = 0; i < 8; i++) {
         var character = charactersList[i];
         var characterObject = new Character(
           character["name"],
