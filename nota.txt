@@ -1,0 +1,28 @@
+
+1. capa de servicio (service.js):
+    + excelente manejo de clases, se manjo bien las sentencias async/await
+    + muy bien la creacion de un DTO para la recepcion del personaje por parte del servicio
+    + buen manejo de error try catch capturara todos los errores de la peticion y de transformacion que se tengan
+    ! esta bien el mapeo del objeto, recuerda que hay funciones como map que te permiten hacerlo mas simple
+2.  manejo HTML y Acceso al DOM (index.js):
+    + muy buen manejo de etiquetas HTML y semantica, asi como buen manejo de las propiedades del elemento
+    + buen manejo de acceso al DOM
+    ! el uso de acceso a parametros de  esta manera (character["image"]) es mas costoso que usar character.image y es mas propenso a errores
+3.  manejo de eventos (index.js)
+    + buen manejo de eventos del DOM 
+    + excelente manejo de erroes en toda la app
+    ! recuerda que puedes acceder a varios elementos iterarlos y agregarles el listener, esto evitara nullpointers exceptions
+4.  manejo de estilos
+    + muy bue manejo de flexbox
+    + muy parecido al figma original
+
+
+Calificacion
+  1. Estilos y diseño HTML y CSS deacuerdo al figma -> CUMPLE (2 puntos)
+  2. Listado de personajes con toda la información solicitada esto incluye indicador de Alive & Dead con el estilo respectivo -> CUMPLE (2 puntos)
+  3. Evento de click y mensaje informativo ´Hola soy (nombre personaje)´ -> CUMPLE (1 punto)
+
+Nota: 5
+
+
+ejercicio puntual nota: 5
